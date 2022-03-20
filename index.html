@@ -1,232 +1,148 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-
-  
-  <title>谢立的BLOG</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>谢立的BLOG - welcome</title><meta name="author" content="谢立"><meta name="copyright" content="谢立"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
 <meta property="og:title" content="谢立的BLOG">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="谢立的BLOG">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
 <meta property="article:author" content="谢立">
 <meta name="twitter:card" content="summary">
-  
-    <link rel="alternate" href="/atom.xml" title="谢立的BLOG" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  
-<link rel="stylesheet" href="/css/style.css">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '谢立的BLOG',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-03-20 17:51:02'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
 
-<meta name="generator" content="Hexo 5.4.1"></head>
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">谢立的BLOG</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-分苹果" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/" class="article-date">
-  <time datetime="2022-03-17T03:42:18.000Z" itemprop="datePublished">2022-03-17</time>
-</a>
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/">分苹果</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="分苹果问题"><a href="#分苹果问题" class="headerlink" title="分苹果问题"></a><strong>分苹果问题</strong></h1><h2 id="最初想法"><a href="#最初想法" class="headerlink" title="最初想法"></a>最初想法</h2><p>​        这个问题本质上是问如何将大小不同的数值组合成任意数值。我自然而然想到了纸币金额的理论–即纸币金额都是1、2、5（也有1、3、5的），这样可以在纸币无限张的时候用最少张凑出任意数值。但是很快就发现这种想法不适用。因为这种思路的前提是有无数张不同金额的纸币供你选择，而分苹果问题的条件限制却是苹果的堆数总共只有十堆。手中只有十张纸币的情况下，是无法将1023内所有的数值全覆盖的。</p>
-<h2 id="改变思路（先把答案搞出来）"><a href="#改变思路（先把答案搞出来）" class="headerlink" title="改变思路（先把答案搞出来）"></a>改变思路（先把答案搞出来）</h2><p>​        经过几组的配凑，我发现一些关键点：首先，一定有一堆是1个苹果（显然），不妨将其认为是第一堆。其次题意是每堆苹果只能使用一次，就可以得出第二堆一定是2个苹果。此时1、2、3已经被覆盖，然而4没有被覆盖（因为2不能使用两次），所以第三堆苹果一定是4。这样一来，1到7均可被覆盖，所以第四堆苹果就得是8，此时1到15全覆盖，所以第五堆是16……</p>
-<p>​        所以十堆苹果即是1、2、4、8、16、32、64、128、256、512总和正巧为1023。此时达成了1~1023内数据全覆盖。</p>
-<h2 id="答案出来了以后再尝试证明"><a href="#答案出来了以后再尝试证明" class="headerlink" title="答案出来了以后再尝试证明"></a>答案出来了以后再尝试证明</h2><h3 id="二进制"><a href="#二进制" class="headerlink" title="二进制"></a>二进制</h3><p>​        假设有十个坑，1到1023所有的数字写成二进制都可以用十个坑位表示（每个坑位可以填0或者1），每堆苹果就代表一个坑位填1，其他的坑位均为0。比如1即为0000000001,2即为0000000010,512即为1000000000。现在在1到1023之间随意取一个数，用二进制表示，哪一位有1即用哪一堆苹果。比如51用二进制表示 为00000110011，用第一堆、第二堆、第五堆、第六堆即可凑出。</p>
-<h3 id="另一种数学证明"><a href="#另一种数学证明" class="headerlink" title="另一种数学证明"></a>另一种数学证明</h3><p>假设在1到1023之间有一个最小的不可表示的数x，总存在n使得2^n≤x＜2＾（n＋1），那么x-2^n就会是一个更小的不可表示的数，就矛盾了</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/" data-id="cl0z0138t0000qgt1202667pw" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-招新题2" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/" class="article-date">
-  <time datetime="2022-03-16T13:06:04.000Z" itemprop="datePublished">2022-03-16</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/">招新题2</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="农民伯伯问题"><a href="#农民伯伯问题" class="headerlink" title="农民伯伯问题"></a>农民伯伯问题</h1><p>​    我不太能get到这题想考察什么知识点。所以就随意写写。</p>
-<p>​    这个问题分两个主体：供给端和需求端。</p>
-<h2 id="方法1：延长粮食保存时间"><a href="#方法1：延长粮食保存时间" class="headerlink" title="方法1：延长粮食保存时间"></a>方法1：延长粮食保存时间</h2><p>​    延长食物的保存时间本质上是满足需求端的低量却长期的需求。改善粮食的贮存环境、将粮食制作成真空食品或者二级产品，大大延长食品保质期即可。</p>
-<h2 id="方法2：多元化供给端"><a href="#方法2：多元化供给端" class="headerlink" title="方法2：多元化供给端"></a>方法2：多元化供给端</h2><p>​    如何在冬天吃到夏天的新鲜的西瓜？将夏天的西瓜贮存至冬天显然不太现实。不过我们可以吃澳大利亚的西瓜（这个例子也许不恰当，我不清楚中国有没有从澳大利亚进口西瓜）。因为地球上总有地方是夏天。便捷的物流、发达的航运，使人们吃到全球的物品成为可能。需求端的需求确实是长期的，一个供给端的供给确实是短期的。但是若有无数时间交错的供给端，问题即可解决。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://example.com/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/" data-id="cl0z013900002qgt133rp2m7z" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">三月 2022</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/">分苹果</a>
-          </li>
-        
-          <li>
-            <a href="/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/">招新题2</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2022 谢立<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-
-  
-<script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-  </div>
-</body>
-</html>
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.1"><link rel="alternate" href="/atom.xml" title="谢立的BLOG" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">谢立的BLOG</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">谢立的BLOG</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/" title="分苹果"><img class="post_bg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="分苹果"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/" title="分苹果">分苹果</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-17T03:42:18.000Z" title="发表于 2022-03-17 11:42:18">2022-03-17</time></span></div><div class="content">分苹果问题最初想法​        这个问题本质上是问如何将大小不同的数值组合成任意数值。我自然而然想到了纸币金额的理论–即纸币金额都是1、2、5（也有1、3、5的），这样可以在纸币无限张的时候用最少张凑出任意数值。但是很快就发现这种想法不适用。因为这种思路的前提是有无数张不同金额的纸币供你选择，而分苹果问题的条件限制却是苹果的堆数总共只有十堆。手中只有十张纸币的情况下，是无法将1023内所有的数值全覆盖的。
+改变思路（先把答案搞出来）​        经过几组的配凑，我发现一些关键点：首先，一定有一堆是1个苹果（显然），不妨将其认为是第一堆。其次题意是每堆苹果只能使用一次，就可以得出第二堆一定是2个苹果。此时1、2、3已经被覆盖，然而4没有被覆盖（因为2不能使用两次），所以第三堆苹果一定是4。这样一来，1到7均可被覆盖，所以第四堆苹果就得是8，此时1到15全覆盖，所以第五堆是16……
+​        所以十堆苹果即是1、2、4、8、16、32、64、128、256、512总和正巧为1023。此时达成了1~1023内数据全覆盖。
+答案出来了以后再尝试证明二进制​        假设有 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/" title="招新题2"><img class="post_bg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="招新题2"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/" title="招新题2">招新题2</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-16T13:06:04.000Z" title="发表于 2022-03-16 21:06:04">2022-03-16</time></span></div><div class="content">农民伯伯问题​    我不太能get到这题想考察什么知识点。所以就随意写写。
+​    这个问题分两个主体：供给端和需求端。
+方法1：延长粮食保存时间​    延长食物的保存时间本质上是满足需求端的低量却长期的需求。改善粮食的贮存环境、将粮食制作成真空食品或者二级产品，大大延长食品保质期即可。
+方法2：多元化供给端​    如何在冬天吃到夏天的新鲜的西瓜？将夏天的西瓜贮存至冬天显然不太现实。不过我们可以吃澳大利亚的西瓜（这个例子也许不恰当，我不清楚中国有没有从澳大利亚进口西瓜）。因为地球上总有地方是夏天。便捷的物流、发达的航运，使人们吃到全球的物品成为可能。需求端的需求确实是长期的，一个供给端的供给确实是短期的。但是若有无数时间交错的供给端，问题即可解决。
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">谢立</div><div class="author-info__description"></div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/" title="分苹果"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="分苹果"/></a><div class="content"><a class="title" href="/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/" title="分苹果">分苹果</a><time datetime="2022-03-17T03:42:18.000Z" title="发表于 2022-03-17 11:42:18">2022-03-17</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/" title="招新题2"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="招新题2"/></a><div class="content"><a class="title" href="/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/" title="招新题2">招新题2</a><time datetime="2022-03-16T13:06:04.000Z" title="发表于 2022-03-16 21:06:04">2022-03-16</time></div></div></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">2</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-03-20T09:51:02.527Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By 谢立</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
