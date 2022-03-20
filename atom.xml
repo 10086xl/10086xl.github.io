@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>谢立的BLOG</title>
+  
+  <subtitle>welcome</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-03-17T15:40:03.398Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>谢立</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>分苹果</title>
+    <link href="http://example.com/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/"/>
+    <id>http://example.com/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C/</id>
+    <published>2022-03-17T03:42:18.000Z</published>
+    <updated>2022-03-17T15:40:03.398Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="分苹果问题"><a href="#分苹果问题" class="headerlink" title="分苹果问题"></a><strong>分苹果问题</strong></h1><h2 id="最初想法"><a href="#最初想法" class="headerlink" title="最初想法"></a>最初想法</h2><p>​        这个问题本质上是问如何将大小不同的数值组合成任意数值。我自然而然想到了纸币金额的理论–即纸币金额都是1、2、5（也有1、3、5的），这样可以在纸币无限张的时候用最少张凑出任意数值。但是很快就发现这种想法不适用。因为这种思路的前提是有无数张不同金额的纸币供你选择，而分苹果问题的条件限制却是苹果的堆数总共只有十堆。手中只有十张纸币的情况下，是无法将1023内所有的数值全覆盖的。</p><h2 id="改变思路（先把答案搞出来）"><a href="#改变思路（先把答案搞出来）" class="headerlink" title="改变思路（先把答案搞出来）"></a>改变思路（先把答案搞出来）</h2><p>​        经过几组的配凑，我发现一些关键点：首先，一定有一堆是1个苹果（显然），不妨将其认为是第一堆。其次题意是每堆苹果只能使用一次，就可以得出第二堆一定是2个苹果。此时1、2、3已经被覆盖，然而4没有被覆盖（因为2不能使用两次），所以第三堆苹果一定是4。这样一来，1到7均可被覆盖，所以第四堆苹果就得是8，此时1到15全覆盖，所以第五堆是16……</p><p>​        所以十堆苹果即是1、2、4、8、16、32、64、128、256、512总和正巧为1023。此时达成了1~1023内数据全覆盖。</p><h2 id="答案出来了以后再尝试证明"><a href="#答案出来了以后再尝试证明" class="headerlink" title="答案出来了以后再尝试证明"></a>答案出来了以后再尝试证明</h2><h3 id="二进制"><a href="#二进制" class="headerlink" title="二进制"></a>二进制</h3><p>​        假设有十个坑，1到1023所有的数字写成二进制都可以用十个坑位表示（每个坑位可以填0或者1），每堆苹果就代表一个坑位填1，其他的坑位均为0。比如1即为0000000001,2即为0000000010,512即为1000000000。现在在1到1023之间随意取一个数，用二进制表示，哪一位有1即用哪一堆苹果。比如51用二进制表示 为00000110011，用第一堆、第二堆、第五堆、第六堆即可凑出。</p><h3 id="另一种数学证明"><a href="#另一种数学证明" class="headerlink" title="另一种数学证明"></a>另一种数学证明</h3><p>假设在1到1023之间有一个最小的不可表示的数x，总存在n使得2^n≤x＜2＾（n＋1），那么x-2^n就会是一个更小的不可表示的数，就矛盾了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;分苹果问题&quot;&gt;&lt;a href=&quot;#分苹果问题&quot; class=&quot;headerlink&quot; title=&quot;分苹果问题&quot;&gt;&lt;/a&gt;&lt;strong&gt;分苹果问题&lt;/strong&gt;&lt;/h1&gt;&lt;h2 id=&quot;最初想法&quot;&gt;&lt;a href=&quot;#最初想法&quot; class=&quot;headerl</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C%E9%97%AE%E9%A2%98/%E5%88%86%E8%8B%B9%E6%9E%9C%E9%97%AE%E9%A2%98/"/>
+    <id>http://example.com/2022/03/17/%E5%88%86%E8%8B%B9%E6%9E%9C%E9%97%AE%E9%A2%98/%E5%88%86%E8%8B%B9%E6%9E%9C%E9%97%AE%E9%A2%98/</id>
+    <published>2022-03-17T02:43:11.156Z</published>
+    <updated>2022-03-17T03:23:21.060Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="分苹果问题"><a href="#分苹果问题" class="headerlink" title="分苹果问题"></a>分苹果问题</h1><h2 id="最初想法"><a href="#最初想法" class="headerlink" title="最初想法"></a>最初想法</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;分苹果问题&quot;&gt;&lt;a href=&quot;#分苹果问题&quot; class=&quot;headerlink&quot; title=&quot;分苹果问题&quot;&gt;&lt;/a&gt;分苹果问题&lt;/h1&gt;&lt;h2 id=&quot;最初想法&quot;&gt;&lt;a href=&quot;#最初想法&quot; class=&quot;headerlink&quot; title=&quot;最初想法&quot;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>图片</title>
+    <link href="http://example.com/2022/03/17/%E5%9B%BE%E7%89%87/"/>
+    <id>http://example.com/2022/03/17/%E5%9B%BE%E7%89%87/</id>
+    <published>2022-03-17T02:30:22.000Z</published>
+    <updated>2022-03-17T02:30:22.310Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>招新题2</title>
+    <link href="http://example.com/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/"/>
+    <id>http://example.com/2022/03/16/%E6%8B%9B%E6%96%B0%E9%A2%982/</id>
+    <published>2022-03-16T13:06:04.000Z</published>
+    <updated>2022-03-18T02:00:13.096Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="农民伯伯问题"><a href="#农民伯伯问题" class="headerlink" title="农民伯伯问题"></a>农民伯伯问题</h1><p>​    我不太能get到这题想考察什么知识点。所以就随意写写。</p><p>​    这个问题分两个主体：供给端和需求端。</p><h2 id="方法1：延长粮食保存时间"><a href="#方法1：延长粮食保存时间" class="headerlink" title="方法1：延长粮食保存时间"></a>方法1：延长粮食保存时间</h2><p>​    延长食物的保存时间本质上是满足需求端的低量却长期的需求。改善粮食的贮存环境、将粮食制作成真空食品或者二级产品，大大延长食品保质期即可。</p><h2 id="方法2：多元化供给端"><a href="#方法2：多元化供给端" class="headerlink" title="方法2：多元化供给端"></a>方法2：多元化供给端</h2><p>​    如何在冬天吃到夏天的新鲜的西瓜？将夏天的西瓜贮存至冬天显然不太现实。不过我们可以吃澳大利亚的西瓜（这个例子也许不恰当，我不清楚中国有没有从澳大利亚进口西瓜）。因为地球上总有地方是夏天。便捷的物流、发达的航运，使人们吃到全球的物品成为可能。需求端的需求确实是长期的，一个供给端的供给确实是短期的。但是若有无数时间交错的供给端，问题即可解决。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;农民伯伯问题&quot;&gt;&lt;a href=&quot;#农民伯伯问题&quot; class=&quot;headerlink&quot; title=&quot;农民伯伯问题&quot;&gt;&lt;/a&gt;农民伯伯问题&lt;/h1&gt;&lt;p&gt;​    我不太能get到这题想考察什么知识点。所以就随意写写。&lt;/p&gt;
+&lt;p&gt;​    这个问题分两个主体</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test_my_site</title>
+    <link href="http://example.com/2022/03/16/test-my-site/"/>
+    <id>http://example.com/2022/03/16/test-my-site/</id>
+    <published>2022-03-16T05:11:48.000Z</published>
+    <updated>2022-03-16T05:11:48.036Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2022/03/16/hello-world/"/>
+    <id>http://example.com/2022/03/16/hello-world/</id>
+    <published>2022-03-16T04:48:30.174Z</published>
+    <updated>2022-03-16T04:47:58.990Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
